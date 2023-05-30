@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Signika+Negative&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: #05F900;
+}
+
+.navbar .collapse{
+    margin-top: 10px;
+}
+
+.corAzul{
+    color: #000C75;
+}
+
+.corVerde{
+    color: #05F900;
+}
+
+.navbar a:hover{
+    color: #038b01;
+}
+
+/*Resume*/
+.resume{
+    background-image: url(../imgs/frutas_verduras.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 120px;
+}
+
+.resume h1{
+    color: white;
+    font-family: 'Alkatra', sans-serif;
+    text-shadow: 11px 6px 7px black;
+}
+
+/*Sobre nós*/
+.sobre{
+    background-color: #000C75;
+    padding: 20px;
+}
+
+.sobre h2{
+   margin-left: -40%;
+}
+
+.sobre .pzinho{
+    margin: 0 auto;
+}
+
+.sobre .pzinho p{
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 769px){
+    .sobre .pzinho{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+/*Nosso produto*/
+.produto{
+    background-color: white;
+    padding: 30px;
+}
+
+.produto img{
+    float: left;
+    height: 450px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.produto .pzinho{
+    margin: 0 auto;
+  
+}
+
+.produto .pzinho p{
+    font-size: 1.2em;
+    direction: rtl;
+}
+
+@media only screen and (min-width: 769px){
+    .produto .pzinho p{
+        font-size: 1.2em;
+        margin-left: 20%;
+        direction: rtl;
+    }
+
+    .produto .pzinho{
+        width: 40%;
+        margin: 0 auto;
+      
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .produto{
+        margin-bottom: 160px;
+    }
+}
+
+/*Nosso produto*/
+.equipe{
+    margin-top: 20px;
+    background-color: #05F900;
+    padding: 20px;
+}
+
+.equipe .cardsSemFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.equipe .cards .card{
+    border: none;
+    border-radius: 0;
+    box-shadow: 10px 9px 6px rgba(0, 0, 0, 0.336);
+    margin-bottom: 40px;
+}
+
+.equipe .cards .card img{
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 970px){
+    .equipe .cards{
+        display: flex;
+        justify-content: space-around;
+    } 
+
+    .equipe .cards .card{
+        margin-left: 20px;
+    }
+}

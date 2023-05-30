@@ -1,0 +1,8 @@
+O grupo Green Transport é composto por:
+João Victor Rosinhole  - RM97880
+Vivian Costa - RM552567
+Larissa Legnaioli Facchioli - RM98927
+
+As fontes utilizadas em todo site foram: Signika Negative e Alkatra
+
+A parte que envolve integração com o javaScript está localizada no Newsletter da landing page
